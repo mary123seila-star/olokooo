@@ -1,0 +1,206 @@
+# SONAR — Website Design & Development Brief
+
+Build a complete, polished, responsive public website called **SONAR**, an educational platform about how dogs perceive and react to different sounds.
+
+The website must feel like a carefully art-directed digital experience, not a school project, a generic AI-generated landing page, or a standard template.
+
+## 1. VISUAL DIRECTION — FOLLOW THE REFERENCE
+
+Use the previously provided **Hausmann Capital website screenshot as the primary visual reference**.
+
+Reproduce its overall visual language:
+- Sophisticated, minimalist, premium editorial design.
+- The same color palette and overall tonal balance shown in the reference image.
+- Dark, elegant visual atmosphere, with carefully controlled contrast.
+- Large, refined typography with expressive scale and generous spacing.
+- Asymmetrical compositions and strong visual hierarchy.
+- Restrained navigation and discreet interface elements.
+- Architectural layouts with intentional negative space.
+- Subtle, smooth transitions and understated animations.
+- Carefully selected photography integrated into the composition.
+
+**Important:** Do not replace the reference palette with cream, beige, electric blue, or another independently invented color scheme. Sample or closely match the actual colors of the reference image when it is available. Keep the palette consistent throughout the entire website.
+
+Do not copy the Hausmann Capital brand, its logo, or its content. Use its visual direction to create an original identity for SONAR.
+
+Avoid:
+- Generic SaaS landing pages.
+- Excessive cards with rounded corners.
+- Bright gradients and random accent colors.
+- Emojis used as interface icons.
+- Unnecessary decorative elements.
+- Crowded layouts and oversized navigation bars.
+- Generic stock-template sections.
+- Dashboard-style layouts, fake statistics, and meaningless charts.
+
+## 2. BRAND AND PURPOSE
+
+**Name:** SONAR
+
+**Subject:** Canine hearing, sound perception, and dogs' behavioral responses to auditory stimuli.
+
+**Purpose:** Help the public understand how dogs hear, interpret, and respond to sounds through clear educational content, scientific context, and real experimental video observations.
+
+The website should communicate curiosity, observation, precision, and sophistication.
+
+Suggested hero headline:
+
+“Eles ouvem mais.
+O que percebem?”
+
+Supporting copy:
+
+“Uma exploração da audição canina e das diferentes maneiras como os cães percebem o mundo sonoro.”
+
+Primary CTA: “Explorar os sons”
+
+Secondary CTA: “Ver as observações”
+
+All website content should be written in natural, well-edited Brazilian Portuguese.
+
+## 3. WEBSITE STRUCTURE
+
+### Page 1 — Home
+
+Create a striking opening screen inspired by the composition and proportions of the reference image.
+
+Include:
+- Minimal top navigation with the SONAR wordmark.
+- A distinctive hero with expressive typography.
+- One strong visual, such as a carefully composed photograph of a dog or an abstract sound-inspired visual.
+- A concise introduction to the subject.
+- A subtle, clearly visible call to action.
+- A sophisticated transition into the next section.
+
+Below the hero, introduce three themes:
+1. Como os cães ouvem.
+2. Como reagem aos sons.
+3. O que as observações revelam.
+
+Do not turn these themes into generic cards. Explore typography, spacing, editorial columns, and image placement instead.
+
+### Page 2 — Sons e reações
+
+Present different categories of auditory stimuli and explain how dogs may respond to them.
+
+Include:
+- Voz familiar.
+- Voz desconhecida.
+- Sons agudos ou inesperados.
+- Sons graves e contínuos.
+
+For each category, explain the stimulus, possible behavioral responses, and what the observation may indicate.
+
+Clearly distinguish established scientific knowledge from illustrative examples and individual observations. Do not present every dog as responding identically.
+
+### Page 3 — Vídeos e observações
+
+Create a visually compelling section for real videos from the experiment.
+
+Each video entry should include:
+- An actual playable video.
+- A descriptive title.
+- The sound stimulus used.
+- A short contextual explanation.
+- Observable behaviors, when documented.
+- A concise interpretation that avoids unsupported conclusions.
+
+Use a refined editorial gallery rather than a grid of generic video cards.
+
+**Video requirements:**
+- Use the actual video files supplied by the project owner when available.
+- Implement working video playback with visible controls.
+- Preserve aspect ratios and provide responsive video sizing.
+- Include captions or transcripts when available.
+- Never autoplay videos with sound.
+- Never invent videos, observations, results, or scientific evidence.
+- If a video file is not available yet, create a clearly labeled placeholder that can easily be replaced with the real file.
+
+### Page 4 — Entendendo a audição canina
+
+Create an accessible educational article-style experience explaining:
+- How dogs perceive sounds.
+- Why frequency and intensity matter.
+- How context can influence behavioral responses.
+- The role of familiarity and previous experiences.
+- How to observe behavior without assuming that one reaction has a single explanation.
+
+Use clear headings, elegant typography, diagrams or illustrations only when they add genuine educational value, and properly attributed references when available.
+
+Do not fabricate citations or scientific claims.
+
+## 4. DESIGN SYSTEM
+
+Create a consistent design system based on the reference image.
+
+Define:
+- A restrained color palette matching the reference.
+- A typography system with expressive display headings and readable body text.
+- Consistent spacing and alignment rules.
+- A clear hierarchy for headings, paragraphs, labels, navigation, and buttons.
+- Subtle hover and focus states.
+- Consistent image treatments.
+- Reusable components that preserve the site's editorial character.
+
+The design should feel intentional at every level. Avoid applying the same component layout repeatedly across every section.
+
+## 5. INTERACTION AND RESPONSIVENESS
+
+The website must work on desktop, tablet, and mobile.
+
+Implement:
+- Functional navigation.
+- Working section links and CTAs.
+- Functional video playback.
+- Search or filtering for the video and observation collection, if useful.
+- Accessible keyboard navigation.
+- Visible focus states.
+- Reduced-motion support.
+- Responsive typography and image layouts.
+
+Every interactive element must perform its stated action. Do not include decorative buttons that do nothing.
+
+## 6. TECHNICAL REQUIREMENTS
+
+Build a functional website, not just a static visual mockup.
+
+Use a maintainable component-based architecture and the project's existing supported framework.
+
+Requirements:
+- Clean, reusable components.
+- Responsive CSS.
+- Semantic HTML.
+- Accessible controls.
+- Good loading performance.
+- Correct handling of missing media.
+- No broken links or nonfunctional navigation.
+- No unnecessary dependencies.
+- No login, user accounts, database, or AI features unless a genuine requirement emerges.
+
+Use supplied assets whenever available. Do not replace real project materials with fabricated content.
+
+## 7. IMPLEMENTATION PROCESS
+
+Work in stages:
+
+**Stage 1 — Visual foundation**
+Build the homepage and establish the reference-matched palette, typography, spacing, navigation, and overall visual language.
+
+**Stage 2 — Full website**
+Build the remaining pages and ensure that all sections feel like parts of the same designed experience.
+
+**Stage 3 — Media**
+Integrate the actual experiment videos and images when available. Make replacing placeholder assets straightforward.
+
+**Stage 4 — Quality assurance**
+Test responsiveness, navigation, video playback, accessibility, visual consistency, and console errors.
+
+## FINAL QUALITY BAR
+
+The result should feel like a sophisticated, professionally art-directed editorial website: minimal, distinctive, visually memorable, and easy to explore.
+
+Prioritize fidelity to the visual reference, thoughtful composition, excellent typography, authentic content, and functional implementation.
+
+Do not stop after generating a basic homepage. Build the complete website structure and verify that its interactions work.
+
+Before making major design decisions that conflict with the reference, prioritize the reference's established visual language over generic web design conventions.
