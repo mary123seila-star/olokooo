@@ -4,6 +4,7 @@ import { ErrorBoundary } from '@/components/error-boundary';
 import { Toaster } from '@/components/ui/toaster';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { Route, Switch, useLocation, Router as WouterRouter, Link } from 'wouter';
+import { Analytics } from '@vercel/analytics/react';
 
 const queryClient = new QueryClient();
 const pageMetadata: Record<string, { title: string; description: string }> = {
@@ -318,5 +319,5 @@ function IAChat() {
 }
 function RoutedErrorBoundary({ children }: { children: ReactNode }) { const [location] = useLocation(); return <ErrorBoundary resetKey={location}>{children}</ErrorBoundary>; }
 function Router() { return <RoutedErrorBoundary><Switch><Route path="/" component={Home} /><Route path="/sons" component={Sons} /><Route path="/audicao" component={Audicao} /><Route path="/laboratorio" component={FrequencyLab} /><Route path="/quiz" component={Quiz} /><Route path="/ia" component={IAChat} /><Route component={NotFoundPage} /></Switch></RoutedErrorBoundary>; }
- function App() { return <QueryClientProvider client={queryClient}><TooltipProvider><WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}><RouteMeta /><Router /></WouterRouter><Toaster /></TooltipProvider></QueryClientProvider>; }
+ function App() { return <QueryClientProvider client={queryClient}><TooltipProvider><WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}><RouteMeta /><Router /></WouterRouter><Toaster /></TooltipProvider><Analytics /></QueryClientProvider>; }
 export default App;
